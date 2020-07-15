@@ -1,0 +1,5 @@
+{
+    "W_nodes": "data/W_25.npy",
+    "V_nodes": "data/V_25.npy",
+    "Weather": "data/Weather_25.npy"
+}
