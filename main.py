@@ -8,7 +8,7 @@ from utils.utils import get_normalized_adj
 from utils.data_load import Data_load
 from model.DeepSTF import DeepSTF
 from process.train import Train
-from process.evalution import Evalution
+from process.evaluate import Evaluate
 
 os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 config = json.load(open('./config.json', 'r'))
@@ -55,7 +55,7 @@ if __name__ == '__main__':
                     )
         torch.cuda.empty_cache()
         with torch.no_grad():
-            eval_loss, eval_index = Evalution(
+            eval_loss, eval_index = Evaluate(
                                         model=model,
                                         loss_meathod=L2,
                                         W_nodes=W_nodes,

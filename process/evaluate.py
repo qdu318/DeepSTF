@@ -32,7 +32,7 @@ def Cal_eval_index(pred, loss_meathod, val_target, time_slice, mean, std):
     return val_loss, val_index
 
 
-def Evalution(model, loss_meathod, W_nodes, time_slice, data_set):
+def Evaluate(model, loss_meathod, W_nodes, time_slice, data_set):
     model.eval()
     eval_input = data_set['eval_input']
     eval_target = data_set['eval_target']
