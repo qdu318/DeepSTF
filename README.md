@@ -1,7 +1,5 @@
 # Deep Statial-Temporal Forecast Model of Traffic Flow (DeepSTF)
-**Author: Zhiqiang Lv**
 
-**The College of Computer Science & Technology, Qingdao University**
  ## Data Set
  https://outreach.didichuxing.com/app-vue/HaiKou?id=999
  ## Requirements
